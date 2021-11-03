@@ -46,6 +46,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlonbok</groupId>
+			<artifactId>lombook</artifactId>
+			<version>1.18.8</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
