@@ -47,9 +47,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.projectlonbok</groupId>
-			<artifactId>lombook</artifactId>
-			<version>1.18.8</version>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
