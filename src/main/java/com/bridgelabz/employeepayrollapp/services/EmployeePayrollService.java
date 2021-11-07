@@ -40,10 +40,8 @@ public class EmployeePayrollService implements IEmployeePayrollService{
 	
 	public EmployeePayrollData updateEmployeePayrollData(int empId, EmployeePayrollDTO empPayrollDTO) {
 		EmployeePayrollData empData = this.getEmployeePayrollDataById(empId);
-		empData.setName(empPayrollDTO.name);
-		empData.setSalary(empPayrollDTO.salary);
-		employeePayrollList.set(empId-1, empData);
-		return empData;
+		empData.updateEmployeePayrollData(empPayrollDTO);
+		return employeeRepository.save(empData);
 	}
 	
 	public void deleteEmployeePayrollData(int empId) {
