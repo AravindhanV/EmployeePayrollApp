@@ -17,6 +17,8 @@ public @ToString class EmployeePayrollDTO {
 	public long salary;
 	
 	public String gender;
+	
+	@JsonFormat(pattern="dd MMM yyyy")
 	public LocalDate startDate;
 	public String note;
 	public String profilePic;
